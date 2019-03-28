@@ -71,7 +71,7 @@ Lorsque l’on clique sur un élément, l’activité actuel se slide vers la dr
 ![IMG_1](https://github.com/AugustinMorieux/Pantone-AndroidApp/blob/Dev/IMG_1.gif)
 
 ### Deux Ecrans:
-![IMG_3](https://github.com/AugustinMorieux/Pantone-AndroidApp/blob/Dev/IMG_1.gif)
+![IMG_3](https://github.com/AugustinMorieux/Pantone-AndroidApp/blob/Dev/IMG_3.png)
 
 
 ## Remarques:
