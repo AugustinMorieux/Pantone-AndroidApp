@@ -18,6 +18,8 @@ Application sous Android studio permettant de connaitre les couleurs associé a 
 * Deux Écrans : Un écran avec une liste et un écran avec un détail de détail de l’item
 * Determiner la couleur moyenne d’une image et l’afficher comme background dans l’activité 2
 
+
+
 ### Architecture:
 * Model
 	- Pokemon
