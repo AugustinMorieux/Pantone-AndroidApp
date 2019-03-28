@@ -121,11 +121,10 @@ L'intérêt et que l'image provient de l'API.
                     }
                 });
 ```
+
 ## Remarques:
 
-	Si en cliquant sur l’image 
-
-## Fonctionnalités:
+Le temps de chargement de la seconde Activité peut être un long en raison du calcul fait sur les couleurs
 
 
 
