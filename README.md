@@ -74,6 +74,53 @@ Lorsque l’on clique sur un élément, l’activité actuel se slide vers la dr
 ![IMG_3](https://github.com/AugustinMorieux/Pantone-AndroidApp/blob/Dev/IMG_3.png)
 
 
+### Determiner la couleur moyenne d’une image et l’afficher comme background dans l’activité 2:
+L'idée est de connaitre la couleur moyenne d'un élément.
+Pour se faire on calcul la couleur moyen des pixels d'une image contenant plusieurs éléments afin de pouvoir sortir en arrière plan de l'image la couleur moyenne de l'image. 
+L'intérêt et que l'image provient de l'API. 
+
+```
+/*** FONCTION PICASSO ***/
+        Picasso.with(Main2Activity.this)
+                .load(item.getImg())
+                .resize(imageDimension, imageDimension)
+                .centerCrop()
+                .into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        assert imageView != null;
+                        imageView.setImageBitmap(bitmap);
+                        Palette.from(bitmap)
+                                .generate(new Palette.PaletteAsyncListener() {
+
+
+                                    @Override
+                                    public void onGenerated(Palette palette) {
+                                        Palette.Swatch textSwatch = palette.getDarkMutedSwatch();
+                                        if (textSwatch == null) {
+                                            Toast.makeText(Main2Activity.this, "Null swatch :(", Toast.LENGTH_SHORT).show();
+                                            return;
+                                        }
+                                        backgroundGroup.setBackgroundColor(textSwatch.getRgb());
+                                        titleColorText.setTextColor(textSwatch.getTitleTextColor());
+                                        bodyColorText.setTextColor(textSwatch.getBodyTextColor());
+                                        titleColorText.setText(item.getName());
+                                        bodyColorText.setText(" rgb:  " +  item.getRgb());
+                                    }
+                                });
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+                    }
+                });
+
 ## Remarques:
 
 	Si en cliquant sur l’image 
