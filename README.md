@@ -56,7 +56,7 @@ La structure de mon API est la suivante:
 
 ### RecyclerView:
 Ici la recycler View permet d’afficher:
-- Les éléments dont on souhaite connaitre la couleur
+- Le nom de l'éléments dont on souhaite connaitre la couleur
 - La valeur Hexadecimal de la couleur
 - L’affichage de la couleur depuis sa valeur  Hexadecimal 
 
