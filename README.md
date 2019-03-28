@@ -56,7 +56,7 @@ La structure de mon API est la suivante:
 
 ### RecyclerView:
 Ici la recycler View permet d’afficher:
-- Le nom de l'éléments dont on souhaite connaitre la couleur
+- Le nom de l'élément dont on souhaite connaitre la couleur
 - La valeur Hexadecimal de la couleur
 - L’affichage de la couleur depuis sa valeur  Hexadecimal 
 
@@ -74,9 +74,9 @@ Lorsque l’on clique sur un élément, l’activité actuel se slide vers la dr
 ![IMG_3](https://github.com/AugustinMorieux/Pantone-AndroidApp/blob/Dev/IMG_3.png)
 
 
-### Determiner la couleur moyenne d’une image et l’afficher comme background dans l’activité 2:
+### Déterminer la couleur moyenne d’une image et l’afficher comme background dans l’activité 2:
 L'idée est de connaitre la couleur moyenne d'un élément.
-Pour se faire on calcul la couleur moyen des pixels d'une image contenant plusieurs éléments afin de pouvoir sortir en arrière plan de l'image la couleur moyenne de l'image. 
+Pour ce faire on calcul la couleur moyen des pixels d'une image contenant une variété de cet élément afin de pouvoir sortir en arrière plan de l'image la couleur moyenne de l'image. 
 L'intérêt et que l'image provient de l'API. 
 
 ```
