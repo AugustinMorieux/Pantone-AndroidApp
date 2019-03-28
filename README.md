@@ -1,15 +1,3 @@
-A FAIRE:
-
-
-- [ ] Faire un Gitflow
-- [ ] Mettre en cache
-- [ ] Generer APK
-
-————————————————————————————————————————————————————————————————
-————————————————————————————————————————————————————————————————
-GITHUB:
-
-
 # Android Application Pantone© :
 
 Créateur: Augustin Mørieux (3A3)
@@ -25,7 +13,7 @@ Application sous Android studio permettant de connaitre les couleurs associé a 
 * Appel WebService à une API Rest.
 * Recycler View
 * Faire Gitflow
-* Animations
+* Animation
 *  Création d’une API (https://augustinmorieux.github.io/Pantone.Json)
 * Deux Écrans : Un écran avec une liste et un écran avec un détail de détail de l’item
 * Determiner la couleur moyenne d’une image et l’afficher comme background dans l’activité 2
@@ -63,6 +51,22 @@ La structure de mon API est la suivante:
 }
 
 ```
+
+### RecyclerView:
+Ici la recycler View permet d’afficher:
+- Les éléments dont on souhaite connaitre la couleur
+- La valeur Hexadecimal de la couleur
+- L’affichage de la couleur depuis sa valeur  Hexadecimal 
+
+### Faire GitFlow:
+Le GItFlow à été développé avec GitKraken et contient deux branches:
+	- master
+	- dev
+
+### Animation:
+Lorsque l’on clique sur un élément, l’activité actuel se slide vers la droite. Pour se Faure j’ai utilisé les bibliothèques créent par Mohammadatif (https://github.com/mohammadatif/Animatoo)
+
+### Deux Ecrans:
 
 
 ## Remarques:
