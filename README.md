@@ -120,7 +120,7 @@ L'intérêt et que l'image provient de l'API.
 
                     }
                 });
-
+```
 ## Remarques:
 
 	Si en cliquant sur l’image 
