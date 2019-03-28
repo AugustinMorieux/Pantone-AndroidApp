@@ -68,7 +68,10 @@ Le GItFlow à été développé avec GitKraken et contient deux branches:
 ### Animation:
 Lorsque l’on clique sur un élément, l’activité actuel se slide vers la droite. Pour se Faure j’ai utilisé les bibliothèques créent par Mohammadatif (https://github.com/mohammadatif/Animatoo)
 
+![IMG_1](https://github.com/AugustinMorieux/Pantone-AndroidApp/blob/Dev/IMG_1.gif)
+
 ### Deux Ecrans:
+
 
 
 ## Remarques:
